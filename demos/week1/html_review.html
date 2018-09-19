@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML 5 Reveiw</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="http://web.iit.edu/sites/web/themes/iit_web/favicon.ico">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="../lean-slider.js"></script>
+</head>
+<body>
+  <header>
+    <h1>ONLY ONE H1 HEADLINE PER PAGE</h1>
+    <p>All content needs to be wrapped in at least one tag</p>
+  </header>
+<!--  This is a comment -->
+<!--  header can wrap nav or stand alone  -->
+  <nav>
+    <ul>
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="page2.html">Second Page</a></li>
+      <li><a href="page3.html">Third Page</a></li>
+    </ul>
+  </nav>
+  <main>
+    <article id="article1">
+      <h2>Article about tags</h2>
+      <section class="descriptions">
+        <h3>This is my first article</h2>
+        <p>Some content goes here</p>
+      </section>
+      <section class="lists">
+        <h3>Do not use this tag...like ever!</h2>
+        <ol>
+          <li>Break tags&#x2C; br</li>
+          <li>I'll cover some more later</li>
+        </ol>
+      </section>
+    </article>
+    <article id="article2">
+      <h2>article vs. section</h2>
+      <section class="descriptions">
+        <h3>When to each</h3>
+        <p>
+          The section element represents a generic section of a document or application. The article
+          element represents a complete, or self-contained, composition in a document, page, application, 
+          or site and that is, in principle, independently distributable or reusable
+        </p>
+      </section>
+      <section class="links">
+        <h3>Links to the w3 spec for each</h3>
+        <ul>
+          <li><a href="https://www.w3.org/TR/html5/sections.html#the-section-element">w3 spects for secion</a></li>
+          <li><a href="https://www.w3.org/TR/html5/sections.html#the-article-element">w3 spects for article</a></li>
+        </ul>
+      </section>
+    </article>
+    <article id="article3">
+      <h2>HTML Form Elements</h2>
+      <form method="POST" action="http://kriedan@bloomingdale.sat.iit.edu/kriedan/formdemoscript.php" enctype="multipart/form-data">
+      <fieldset>
+      <legend>Text Entry Controls</legend>
+        <p>
+          <label>First Name: <input type="text" name="text_field" placeholder="Dah, it's your first name"></label>
+        </p>
+        <p>
+        <label for="our_textarea">Comments:</label><br>
+          <textarea cols="30" rows="10" name="textarea_field" placeholder="Default Textarea text" id="our_textarea"></textarea>
+        </p>
+        <p>
+          <label>Password: <input type="password" name="password_field"></label>
+        </p>
+      </fieldset>
+        <p>
+          <label>Red: <input type="radio" name="radio_field" value="red"></label>
+          <label>Green: <input type="radio" name="radio_field" value="green"></label>
+          <label for="blueradio">Blue: </label><input type="radio" name="radio_field" value="blue" checked="checked" id="blueradio">
+        </p>
+        <p>
+          <label>Red: <input type="checkbox" name="checkbox_field[]" value="red"></label><br>
+          <label>Blue: <input type="checkbox" name="checkbox_field[]" value="blue" checked></label><br>
+          <label>Green: <input type="checkbox" name="checkbox_field[]" value="green"></label>
+        </p>
+        <p>
+          <select name="menu_field--------">
+            <option value="R">Red</option>
+            <option value="G" selected>Green</option>
+            <option value="B">Blue</option>
+          </select>
+        </p>
+        <p>
+          <select size="3" multiple="multiple" name="menu_field[]">
+            <optgroup label="Primary">
+            <option value="R">Red</option>
+            <option value="G" selected>Green</option>
+            <option value="B">Blue</option>
+            </optgroup>
+            <optgroup label="Other">
+            <option value="Y">Yellow</option>
+            <option value="P">Purple</option>
+            <option value="W">White</option>
+            </optgroup>
+          </select>
+        </p>
+        <p>
+          <input type="file" name="file_field">
+        </p>
+        <p>
+          <input type="hidden" name="hidden_field" value="bbailey4">
+        </p>
+        <input type="submit" value="Turn me on">
+        <input type="reset" value="no don't go">
+      </form>
+    </article>
+  </main>
+  <footer>
+    <address>Site developed by Daniel Krieglstein&#x3a; kriedan@iit.edu.</address>
+  </footer>
+</body>
+</html>
