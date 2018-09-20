@@ -388,3 +388,32 @@ template {
 [hidden] {
   display: none;
 }
+
+/* Amairani Lopez - Personal Code */
+ form{
+  text-align: center;
+  font: 1em Georgia, "Times New Roman", Times, serif;
+  width: 550px;
+  padding-left: 270px;
+  padding-right: 150px;
+  line-height: 1.8;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  margin-top: 30px;
+}
+
+fieldset{
+  display: block;
+  text-align: center;
+  border: 2px groove (internal value);
+  font: 1em Georgia, "Times New Roman", Times, serif;
+}
+
