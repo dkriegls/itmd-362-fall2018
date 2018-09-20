@@ -265,7 +265,7 @@ textarea {
 body{
   font-family: magallanes, sans-serif;
   text-align: center; 
-  background-image: linear-gradient(45deg, rgb(65, 28, 27), rgb(255, 180, 147));  
+  background-image: linear-gradient(45deg, rgb(65, 28, 27), rgb(255, 180, 147));
   margin-top: 24px;  
   margin-bottom: auto; 
 } 
