@@ -262,9 +262,17 @@ textarea {
 Jonathan Garcia
 */
 
+h1{
+  text-align: center;
+  font: helvetica, "Times New Roman", sans-serif;
+  color: rgb(255, 165, 145);
+  margin: auto; 
+  line-height: 2:];
+}
+
 body{
   text-align: center;
-  font-family: helvetica, sans-serif;
+  font: helvetica, "Times New Roman", sans-serif;
   background-color: rgb(140, 24, 73); 
   margin-top: 50px;
 }
