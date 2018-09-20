@@ -413,7 +413,8 @@ body {
 fieldset{
   display: block;
   text-align: center;
-  border: 2px groove (internal value);
+  border: 30px groove;
+  border-color: #83DAFC;
   font: 1em Georgia, "Times New Roman", Times, serif;
   background-color: #B5EDFF;
   opacity: .9;
@@ -450,5 +451,17 @@ input{
   margin: auto;
   line-height: 1.8;
   margin-bottom: 20px;
+}
+
+button{
+  text-align: center;
+  border: 10px groove;
+  border-color: #4E50F2;
+  font-weight: bold;
+  opacity: 1;
+  margin: auto;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #4E50F2;
 }
 
