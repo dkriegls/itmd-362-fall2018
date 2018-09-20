@@ -281,11 +281,11 @@ form{
   width: 75%;
 }
 
-
-
-
-
-
-
+input{
+  border: 2px solid black; 
+  box-sizing: border-box;
+  margin: 10px;
+  width: auto; 
+}
 
 
