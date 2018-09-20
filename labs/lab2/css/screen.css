@@ -260,5 +260,15 @@ textarea {
 
 
 
+/* ----- Jose Garcia Edit ----- */
 
+body{
+  font-family: 'magallanes', sans-serif;
+  text-align: center;
+  background-position: center;
+  background-image: linear-gradient(45deg, rgb(65, 28, 27), rgb(255, 180, 147));  
+  background-repeat: no-repeat; 
+  background-size: contain; 
+  margin-top: 24px;  
+} 
 
