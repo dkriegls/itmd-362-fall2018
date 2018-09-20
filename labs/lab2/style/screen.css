@@ -393,16 +393,16 @@ template {
  form{
   text-align: center;
   font: 1em Georgia, "Times New Roman", Times, serif;
-  width: 550px;
-  padding-left: 270px;
-  padding-right: 150px;
+  width: 130px;
+  padding-left: 100px;
+  padding-right: 100px;
   line-height: 1.8;
 }
 
 body {
   font-family: 'Lato', sans-serif;
   text-align: center;
-  background-color: #f2f2f2;
+  background: url(sunrise.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -415,5 +415,10 @@ fieldset{
   text-align: center;
   border: 2px groove (internal value);
   font: 1em Georgia, "Times New Roman", Times, serif;
+  background-color: #B5EDFF;
+  opacity: .9;
+  width: 100px;
+  margin: auto;
+  line-height: 1.8;
 }
 
