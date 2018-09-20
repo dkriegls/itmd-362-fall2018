@@ -456,6 +456,7 @@ input{
 button{
   text-align: center;
   border: 10px groove;
+  border-radius: 20px;
   border-color: #4E50F2;
   font-weight: bold;
   opacity: 1;
