@@ -14,9 +14,9 @@ Then, in the `screen.css` file, do the following:
 
 * Open with a rich set of reset CSS styles (such as Eric Meyer’s used in class demos)
 * Include a set of normalization styles for your forms (such as the Form area of Normalize.css)
-* Use CSS to stylalize the form between a scroll friendly mobile first, and a sectioned desktop version. 
+* Use CSS to stylize the form between a scroll friendly mobile first, and a sectioned desktop version. 
 
 As with all labs, be sure that you are doing multiple, granular/atomic commits as you
 complete your work.
 
-* Finally, post a link to your Github repository for this lab to your Basecamp file. 
+* Finally, post a link to your github repository for this lab to your Basecamp file. 
